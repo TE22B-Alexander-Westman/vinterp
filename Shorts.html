@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/hoodie.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="tom"></div>
+        <div class="rubrik">
+            <a href="/homepage.html">
+                <h1>QmR UF</h1>
+            </a>
+        </div>
+        <a href="/kundvagn.html">
+            <div class="kundvagn">
+                <img src="/bilder/shopping-cart.png" alt="Kundvagn">
+            </div>
+        </a>
+
+    </header>
+
+    <nav>
+        <div class="dam">
+            <a href="/plag.html">Dam</a>
+        </div>
+        <hr>        
+        <div class="herr">
+            <a href="/plag.html">Herr</a>
+        </div>
+        <hr>
+        <div class="barn">
+            <a href="/plag.html">Barn</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="box1">
+            <div class="bild-namn">
+                <h1>Shorts</h1>
+            </div>
+            <div class="bild">
+                <img src="./bilder/Shorts.png" alt="">
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="item">
+                <div class="btn-pris">
+                    <h1>500 Kr</h1>
+                </div>
+                <button onclick="addToKundvagn( './bilder/Shorts.png','Shorts', 500)">Lägg till</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
