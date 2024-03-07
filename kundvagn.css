@@ -107,17 +107,21 @@ main{
 }
 
 
-@media only screen and (max-width: 391px){
+@media only screen and (max-width: 766px){
     nav{
         width: 80%;
     }
 
     .varor{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        gap: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
 
-@media only screen and (max-width: 821px){
+@media only screen and (max-width: 821px) and (min-width: 767px){
     .varor{
         grid-template-columns: 1fr 1fr 1fr;
     }

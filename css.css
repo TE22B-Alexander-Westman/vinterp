@@ -140,7 +140,7 @@ nav > hr{
     }
 }
 
-@media only screen and (max-width: 821px){
+@media only screen and (max-width: 821px) and (min-width: 767px){
     .bild1{
         visibility: collapse;
     }
