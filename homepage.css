@@ -160,3 +160,56 @@ aside{
     border-color: #000;
     background-color: #000;
 }
+
+@media only screen and (max-width: 391px){
+    nav{
+        width: 80%;
+    }
+    .bild1{
+        visibility: collapse;
+    }
+    .katalog{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 40px;
+        border: none;
+        
+    }
+    .objekt1{
+        margin: auto;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .matto{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 821px){
+    .bild1{
+        visibility: collapse;
+    }
+    .objekt1{
+        width: 200px;
+        height: 330px;
+    }
+    .produkt-bild1 > img{
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+    .produkt-bild1{
+        width: 170px;
+        height: 170px;
+    }
+
+    aside{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}

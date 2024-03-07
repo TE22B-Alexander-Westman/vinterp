@@ -34,7 +34,7 @@ function ladda_kundvagn()
         let diven = document.createElement("div");
         // början skapa varubild
         let img = document.createElement("img");
-        img.setAttribute("src", array[i].varu_bild) ;
+        img.setAttribute("src", array[i].varu_bild);
         img.classList.add("vara");
         diven.appendChild(img);
         // sluta skapa varubild 

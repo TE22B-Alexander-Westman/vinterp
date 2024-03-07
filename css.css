@@ -1,5 +1,14 @@
 body{
     margin: 0;
+    padding-bottom: 40px;
+}
+
+.gone{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    gap: 20px;
+
 }
 
 header{
@@ -101,16 +110,6 @@ nav > hr{
     margin-top: 100px;
 }
 
-.box1,.box2{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    gap: 20px;
-}
-
-.box2{
-    margin-top: 4rem;
-}
 
 .bild1{
     position: absolute;
@@ -120,4 +119,34 @@ nav > hr{
 .bild1 > img{
     transform:rotate(-20deg);
     width: 90%;
+}
+
+@media only screen and (max-width: 391px){
+    nav{
+        width: 80%;
+    }
+    .bild1{
+        visibility: collapse;
+    }
+    .katalog{
+        margin: auto;
+        padding: 30px;
+        margin-top: 40px;
+        border: none;
+    }
+    .gone{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 821px){
+    .bild1{
+        visibility: collapse;
+    }
+
+    .gone{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

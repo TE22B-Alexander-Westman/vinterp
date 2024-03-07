@@ -105,3 +105,20 @@ main{
     text-align: center;
     margin-top: 50px;
 }
+
+
+@media only screen and (max-width: 391px){
+    nav{
+        width: 80%;
+    }
+
+    .varor{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 821px){
+    .varor{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
